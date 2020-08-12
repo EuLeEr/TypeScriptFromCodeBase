@@ -7,13 +7,15 @@ document.getElementById("app").innerHTML = `
 </div>
 `;
 interface User {
-  firstName : string
-  lastName: string
+  firstName: string;
+  lastName: string;
 }
-const user: User = { firstName: "Евгений", lastName: "Ермолов"};
-document.getElementById("app").innerHTML = 
-document.getElementById("app").innerHTML + `
+const user: User = { firstName: "Евгений", lastName: "Ермолов" };
+document.getElementById("app").innerHTML =
+  document.getElementById("app").innerHTML +
+  `
 <div>
+<p></p>
 Copyright ${user.firstName} ${user.lastName}
 </div>
 `;
